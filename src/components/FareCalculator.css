@@ -1,0 +1,97 @@
+.fare-calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .fare-calculator {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .icon {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .location-btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 48%;
+  }
+  
+  .location-btn:hover {
+    background: #45a049;
+  }
+  
+  .map {
+    margin-bottom: 15px;
+  }
+  
+  .discounts {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .calculate-btn {
+    background: #007bff;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .calculate-btn:hover {
+    background: #0056b3;
+  }
+  
+  .fare-details {
+    margin-top: 20px;
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fare-details h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .fare-details p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
